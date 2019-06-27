@@ -128,7 +128,7 @@ body {
 
 .header {
   grid-column: full-start / col-end 6;
-  background-image: linear-gradient(rgba(255, 155, 193, 0.75), rgba(255, 155, 193, 0.9)), url(../img/hero.jpeg);
+  background-image: linear-gradient(rgba(255, 155, 193, 0.75), rgba(255, 155, 193, 0.9)), url(../img/Yellow-Red-Blue.jpg);
   background-size: cover;
   background-position: center;
   padding: 8rem;
