@@ -1,8 +1,8 @@
 .story {
     &__pictures {
-        background-color: $color-primary;
+        background-color: $color-secondary;
         grid-column: full-start / col-end 4;
-        background-image: linear-gradient(rgba($color-primary, .5), rgba($color-primary, .5)), url(../img/back.jpg);
+        background-image: linear-gradient(rgba($color-primary, .7), rgba($color-primary, .7)), url(../img/delaunay1.jpg);
         background-size: cover;
 
         display: grid;

@@ -51,7 +51,7 @@ body {
 
 .heading-3 {
   font-size: 1.6rem;
-  color: #858585;
+  color: #5a5a5a;
   text-transform: uppercase; }
 
 .heading-4 {
@@ -62,7 +62,7 @@ body {
     color: #44403c; }
 
 .btn {
-  background-color: #858585;
+  background-color: #5a5a5a;
   color: #fff;
   border: none;
   border-radius: 0;
@@ -73,7 +73,7 @@ body {
   cursor: pointer;
   transition: all .2s; }
   .btn:hover {
-    background-color: #505050; }
+    background-color: #363636; }
 
 .mb-sm {
   margin-bottom: 2rem; }
@@ -88,7 +88,7 @@ body {
   margin-bottom: 8rem; }
 
 .sidebar {
-  background-color: #858585;
+  background-color: #5a5a5a;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
   display: flex;
@@ -128,7 +128,7 @@ body {
 
 .header {
   grid-column: full-start / col-end 6;
-  background-image: linear-gradient(rgba(255, 155, 193, 0.75), rgba(255, 155, 193, 0.9)), url(../img/Yellow-Red-Blue.jpg);
+  background-image: linear-gradient(rgba(190, 170, 53, 0.75), rgba(255, 240, 155, 0.9)), url(../img/Yellow-Red-Blue.jpg);
   background-size: cover;
   background-position: center;
   padding: 8rem;
@@ -174,7 +174,7 @@ body {
       filter: brightness(70%); }
 
 .artists {
-  background-color: teal;
+  background-color: #ff9bc1;
   grid-column: col-start 7 / full-end;
   padding: 3rem;
   display: grid;
@@ -240,9 +240,9 @@ body {
     font-size: 1.7rem; }
 
 .story__pictures {
-  background-color: #858585;
+  background-color: #ff9bc1;
   grid-column: full-start / col-end 4;
-  background-image: linear-gradient(rgba(133, 133, 133, 0.5), rgba(133, 133, 133, 0.5)), url(../img/back.jpg);
+  background-image: linear-gradient(rgba(90, 90, 90, 0.7), rgba(90, 90, 90, 0.7)), url(../img/delaunay1.jpg);
   background-size: cover;
   display: grid;
   grid-template-rows: repeat(6, 1fr);
@@ -311,14 +311,16 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 3.5rem; }
   .exhibition__img {
+    object-fit: cover;
     width: 100%;
+    height: 30rem;
     grid-row: 1 / 2;
     grid-column: 1 / -1;
     z-index: 1; }
   .exhibition__like {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
-    fill: #858585;
+    fill: #5a5a5a;
     height: 2.5rem;
     width: 2.5rem;
     z-index: 2;
@@ -339,15 +341,15 @@ body {
     color: #fff;
     font-weight: 400;
     transform: translateY(50%); }
-  .exhibition__location, .exhibition__rooms {
+  .exhibition__location, .exhibition__artist {
     margin-top: 2.5rem; }
-  .exhibition__location, .exhibition__rooms, .exhibition__area, .exhibition__price {
+  .exhibition__location, .exhibition__artist, .exhibition__area, .exhibition__price {
     font-size: 1.5rem;
     margin-left: 2rem;
     display: flex;
     align-items: center; }
-    .exhibition__location svg, .exhibition__rooms svg, .exhibition__area svg, .exhibition__price svg {
-      fill: #858585;
+    .exhibition__location svg, .exhibition__artist svg, .exhibition__area svg, .exhibition__price svg {
+      fill: #5a5a5a;
       height: 2rem;
       width: 2rem;
       margin-right: 1rem; }
@@ -412,14 +414,14 @@ body {
     display: block; }
 
 .footer {
-  background-color: #ff9bc1;
+  background-color: teal;
   grid-column: full-start / full-end;
   padding: 8rem; }
 
 .nav {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
   grid-gap: 2rem;
   align-items: center; }
   .nav__link:link, .nav__link:visited {
